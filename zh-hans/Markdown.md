@@ -397,6 +397,33 @@ Windows lets you perform most tasks directly from the keyboard. This page lists 
 <p attrname="value" class="someclass" id="someid">Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the <strong attrname="value">default</strong> bindings (keyboard shortcuts).</p>
 ```
 
+## 脚注
+
+```markdown
+Footnotes have a label[^label1] and the footnote's content[^label2].
+
+[^label1]: A footnote on the label: "label1".
+[^label2]: A footnote on the label: "label2".
+
+///Footnotes Go Here///
+```
+
+```html
+<p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
+
+<div class="footnote">
+  <hr>
+  <ol>
+    <li id="fn:label1">
+      <p>A footnote on the label: "label1".&#160;<a class="footnote-backref" href="#fnref:label1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+    </li>
+    <li id="fn:label2">
+      <p>A footnote on the label: "label2".&#160;<a class="footnote-backref" href="#fnref:label2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
