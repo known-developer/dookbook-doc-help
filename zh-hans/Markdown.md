@@ -13,6 +13,9 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 ## 标题
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 # 一级标题
 
@@ -30,6 +33,9 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 ```
 
 ## 段落
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
 
 ```markdown
 段落1
