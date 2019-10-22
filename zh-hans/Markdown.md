@@ -324,6 +324,62 @@ _这也是次强调文字，斜体_
 </table>
 ```
 
+## 引用块
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+```
+
+```html
+<p>As Kanye West said:</p>
+
+<blockquote>We're living the future so
+  the present is our past.</blockquote>
+```
+
+## 缩写
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+```
+
+```html
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
+
+## 代码段
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```python
+print ('Hello world')
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
+```html
+<pre><code>
+print ('Hello world')
+</code></pre>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

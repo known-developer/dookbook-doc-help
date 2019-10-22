@@ -325,6 +325,62 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 </table>
 ```
 
+## Blockquote
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+```
+
+```html
+<p>As Kanye West said:</p>
+
+<blockquote>We're living the future so
+  the present is our past.</blockquote>
+```
+
+## Abbreviations
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+```
+
+```html
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
+
+## Code Block
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```python
+print ('Hello world')
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
+```html
+<pre><code>
+print ('Hello world')
+</code></pre>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
