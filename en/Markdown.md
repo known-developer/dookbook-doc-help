@@ -381,6 +381,23 @@ print ('Hello world')
 </code></pre>
 ```
 
+## Attribute List
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+## Attribute List {: #head-id}
+
+Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the **default**{: attrname="value" } bindings (keyboard shortcuts).
+{: #someid .someclass attrname='value' }
+```
+
+```html
+<h2 id="head-id">Attribute List</h2>
+<p attrname="value" class="someclass" id="someid">Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the <strong attrname="value">default</strong> bindings (keyboard shortcuts).</p>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
