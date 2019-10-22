@@ -325,6 +325,25 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 </table>
 ```
 
+## Blockquote
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+```
+
+```html
+<p>As Kanye West said:</p>
+
+<blockquote>We're living the future so
+  the present is our past.</blockquote>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

@@ -324,6 +324,25 @@ _这也是次强调文字，斜体_
 </table>
 ```
 
+## 引用块
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+```
+
+```html
+<p>As Kanye West said:</p>
+
+<blockquote>We're living the future so
+  the present is our past.</blockquote>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
