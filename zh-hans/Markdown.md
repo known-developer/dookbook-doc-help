@@ -13,6 +13,9 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 ## 标题
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 # 一级标题
 
@@ -31,6 +34,9 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 ## 段落
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 段落1
 
@@ -40,6 +46,66 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 ```html
 <p>段落1</p>
 <p>段落2</p>
+```
+
+## 列表
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+### 无序列表
+
+```markdown
+- 列表项目 1
+  - 列表项目 1.1
+  - 列表项目 1.2
+- 列表项目 2
+```
+
+```html
+<ul>
+  <li>列表项目 1</li>
+  <ul>
+    <li>列表项目 1.1</li>
+    <li>列表项目 1.2</li>
+  </ul>
+  <li>列表项目 2</li>
+</ul>
+```
+
+### 有序列表
+
+```markdown
+1. 列表项目 1
+1. 列表项目 2
+```
+
+```html
+<ol>
+  <li>列表项目1</li>
+  <li>列表项目2</li>
+</ol>
+```
+
+### 定义列表
+
+```markdown
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+```
+
+```html
+<dl>
+  <dt>Apple</dt>
+  <dd>Pomaceous fruit of plants of the genus Malus in the family Rosaceae.</dd>
+
+  <dt>Orange</dt>
+  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
+</dl>
 ```
 
 ## 参考资料

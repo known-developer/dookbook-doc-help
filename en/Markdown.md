@@ -16,6 +16,9 @@ Markdown language is created by *John Gruber* in 2004.
 
 ## Heading
 
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
 ```markdown
 # Level-1 Heading
 
@@ -34,6 +37,9 @@ Markdown language is created by *John Gruber* in 2004.
 
 ## Paragraph
 
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
 ```markdown
 Paragraph 1
 
@@ -43,6 +49,66 @@ Paragraph 2
 ```html
 <p>Paragraph 1</p>
 <p>Paragraph 2</p>
+```
+
+## List
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+### Unordered List
+
+```markdown
+- Item 1
+  - Item 1.1
+  - Item 1.2
+- Item 2
+```
+
+```html
+<ul>
+  <li>Item 1</li>
+  <ul>
+    <li>Item 1.1</li>
+    <li>Item 1.2</li>
+  </ul>
+  <li>Item 2</li>
+</ul>
+```
+
+### Ordered List
+
+```markdown
+1. Item 1
+1. Item 2
+```
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+```
+
+### Definition List
+
+```markdown
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+```
+
+```html
+<dl>
+  <dt>Apple</dt>
+  <dd>Pomaceous fruit of plants of the genus Malus in the family Rosaceae.</dd>
+
+  <dt>Orange</dt>
+  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
+</dl>
 ```
 
 ## References
