@@ -11,7 +11,8 @@ control system of choice.
 
 Markdown language is created by *John Gruber* in 2004.
 
-The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
+!!! info "Tips"
+    The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
 
 ## Heading
 
