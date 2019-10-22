@@ -1,0 +1,30 @@
+{
+  "name": "dookbook-doc-help",
+  "version": "0.0.1",
+  "description": "Dookbook Document Library (Help Documentation).",
+  "main": "index.js",
+  "dependencies": {
+    "markdownlint-cli": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "markdownlint --silent --ignore node_modules/ ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dookbook/dookbook-doc-help.git"
+  },
+  "keywords": [
+    "dookbook",
+    "developer-documentation",
+    "markdown",
+    "developer-productivity",
+    "help"
+  ],
+  "author": "Li Yun <leven.cn@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dookbook/dookbook-doc-help/issues"
+  },
+  "homepage": "https://dookbook.info/"
+}
