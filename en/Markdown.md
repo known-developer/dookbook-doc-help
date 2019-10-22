@@ -229,6 +229,102 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 <img src="URL" alt="Alt Text"/>
 ```
 
+## Inline Code
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+`code here`
+```
+
+```html
+<code>code here</code>
+
+<value>code here</value>
+```
+
+## Table
+
+### Raw Table
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+| Name | Description | Hot |
+| ------------- | --- | --- |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+
+<!-- 1. There must be at least 3 dashes separating each header cell. -->
+
+<!-- 2. The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown. -->
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Hot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Help</td>
+      <td>Display the help window.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><strong>Close</strong>/td>
+      <td><em>Closes</em> a <code>window</code></td>
+      <td>1000</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+### Column Alignment
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+<!-- Colons can be used to align columns: right-aligned, centered, and neat -->
+
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th align="center">Description (centered)</th>
+      <th align="right">Hot (right-aligned)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Help</td>
+      <td align="center">Display the help window.</td>
+      <td align="right">5</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td align="center"><em>Closes</em> a <code>window</code></td>
+      <td align="right">1000</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
