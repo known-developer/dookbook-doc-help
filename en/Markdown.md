@@ -201,6 +201,9 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 
 ## Link
 
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
 ```markdown
 [Link Text](URL)
 
@@ -214,6 +217,9 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 ```
 
 ## Image
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
 
 ```markdown
 ![Alt Text](URL)

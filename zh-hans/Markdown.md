@@ -201,6 +201,9 @@ _这也是次强调文字，斜体_
 
 ## 链接
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 [链接文字](URL)
 
@@ -214,6 +217,9 @@ _这也是次强调文字，斜体_
 ```
 
 ## 图片
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
 
 ```markdown
 ![替换文本](URL)
