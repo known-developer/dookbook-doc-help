@@ -362,6 +362,25 @@ is maintained by the W3C.
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
 
+## Code Block
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```python
+print ('Hello world')
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
+```html
+<pre><code>
+print ('Hello world')
+</code></pre>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
