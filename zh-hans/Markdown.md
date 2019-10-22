@@ -186,6 +186,19 @@ _这也是次强调文字，斜体_
 混合的文本<strong>强调和 <em>斜体</em></strong>.
 ```
 
+## 水平分割线
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+***
+```
+
+```html
+<hr/>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
