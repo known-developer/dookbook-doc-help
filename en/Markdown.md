@@ -20,12 +20,16 @@ The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
 
 ```markdown
 # Level-1 Heading
+
 ## Level-2 Heading
+
 ### Level-3 Heading
 ```
 
 ```html
 <h1>Level-1 Heading</h1>
+
 <h2>Level-2 Heading</h2>
+
 <h3>Level-3 Heading</h3>
 ```
