@@ -186,6 +186,43 @@ _这也是次强调文字，斜体_
 混合的文本<strong>强调和 <em>斜体</em></strong>.
 ```
 
+## 水平分割线
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+***
+```
+
+```html
+<hr/>
+```
+
+## 链接
+
+```markdown
+[链接文字](URL)
+
+[链接文字](URL "提示文字")
+```
+
+```html
+<a href="URL">链接文字</a>
+
+<a href="URL" title="提示文字">链接文字</a>
+```
+
+## 图片
+
+```markdown
+![替换文本](URL)
+```
+
+```html
+<img src="URL" alt="替换文本"/>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

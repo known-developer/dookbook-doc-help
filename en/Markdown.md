@@ -186,6 +186,43 @@ Combined emphasis with **asterisks and _underscores_**.
 Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 ```
 
+## Horizontal Rule
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+***
+```
+
+```html
+<hr/>
+```
+
+## Link
+
+```markdown
+[Link Text](URL)
+
+[Link Text](URL "Tip Text")
+```
+
+```html
+<a href="URL">Link Text</a>
+
+<a href="URL" title="Tip Text">Link Text</a>
+```
+
+## Image
+
+```markdown
+![Alt Text](URL)
+```
+
+```html
+<img src="URL" alt="Alt Text"/>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
