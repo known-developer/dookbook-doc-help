@@ -8,7 +8,8 @@ TOPIC: markdown
 
 Markdown语言在2004由*约翰·格鲁伯*创建。
 
-Markdown编写的文档*后缀*为`.md`或`.markdown`
+!!! info "小贴士"
+    Markdown编写的文档*后缀*为`.md`或`.markdown`。
 
 ## 标题
 
