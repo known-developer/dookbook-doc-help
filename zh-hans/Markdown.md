@@ -10,9 +10,6 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 Markdown编写的文档*后缀*为`.md`或`.markdown`
 
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
-
 ## 标题
 
 ```markdown
@@ -30,3 +27,8 @@ Markdown编写的文档*后缀*为`.md`或`.markdown`
 
 <h3>三级标题</h3>
 ```
+
+## 参考资料
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)

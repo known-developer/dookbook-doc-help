@@ -13,9 +13,6 @@ Markdown language is created by *John Gruber* in 2004.
 
 The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
 
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
-
 ## Heading
 
 ```markdown
@@ -33,3 +30,8 @@ The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
 
 <h3>Level-3 Heading</h3>
 ```
+
+## References
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
