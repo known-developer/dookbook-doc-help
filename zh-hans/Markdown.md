@@ -399,6 +399,9 @@ Windows lets you perform most tasks directly from the keyboard. This page lists 
 
 ## 脚注
 
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
 ```markdown
 Footnotes have a label[^label1] and the footnote's content[^label2].
 
@@ -422,6 +425,37 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
     </li>
   </ol>
 </div>
+```
+
+## 警示
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! danger "Don't try this at home"
+    You should note that the title will be automatically capitalized.
+
+!!! important ""
+    This is a admonition box without a title.
+```
+
+```html
+<div class="admonition note">
+  <p class="admonition-title">Note</p>
+  <p>You should note that the title will be automatically capitalized.</p>
+</div>
+
+<div class="admonition danger">
+  <p class="admonition-title">Don't try this at home</p>
+  <p>You should note that the title will be automatically capitalized.</p>
+</div>
+
+<div class="admonition important">
+<p>This is a admonition box without a title.</p>
 ```
 
 ## 参考资料
