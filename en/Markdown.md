@@ -51,6 +51,66 @@ Paragraph 2
 <p>Paragraph 2</p>
 ```
 
+## List
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+### Unordered List
+
+```markdown
+- Item 1
+  - Item 1.1
+  - Item 1.2
+- Item 2
+```
+
+```html
+<ul>
+  <li>Item 1</li>
+  <ul>
+    <li>Item 1.1</li>
+    <li>Item 1.2</li>
+  </ul>
+  <li>Item 2</li>
+</ul>
+```
+
+### Ordered List
+
+```markdown
+1. Item 1
+1. Item 2
+```
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+```
+
+### Definition List
+
+```markdown
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+```
+
+```html
+<dl>
+  <dt>Apple</dt>
+  <dd>Pomaceous fruit of plants of the genus Malus in the family Rosaceae.</dd>
+
+  <dt>Orange</dt>
+  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
+</dl>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
