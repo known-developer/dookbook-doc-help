@@ -108,6 +108,84 @@ Orange
 </dl>
 ```
 
+## 文本
+
+### 强调文本
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+!!! warn
+    双下划线`__`不支持中文!
+
+```markdown
+这是**强调文字**
+
+这不支持中文__强调文字__
+```
+
+```html
+这是<strong>强调文字</strong>
+
+这不支持中文<strong>强调文字</strong>
+```
+
+### 斜体文本
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+*次强调文字， 斜体*
+
+_这也是次强调文字，斜体_
+```
+
+```html
+<em>次强调文字， 斜体</em>
+
+<em>这也是次强调文字，斜体</em>
+```
+
+### 删除文本
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+~~删除的文字~~
+```
+
+```html
+<del>删除的文字</del>
+```
+
+### 插入文本
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+++插入的文字++
+```
+
+```html
+<ins>插入的文字</ins>
+```
+
+### 混合文本
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+混合的文本**强调和 _斜体_**.
+```
+
+```html
+混合的文本<strong>强调和 <em>斜体</em></strong>.
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

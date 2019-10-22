@@ -111,6 +111,81 @@ Orange
 </dl>
 ```
 
+## Text
+
+### Bold Text
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+This text will be **bold**
+
+This will also be __bold__
+```
+
+```html
+This text will be <strong>bold</strong>
+
+This will also be <strong>bold</strong>
+```
+
+### Italic Text
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+*This text will be italic*
+
+_This will also be italic_
+```
+
+```html
+<em>This text will be italic</em>
+
+<em>This will also be italic</em>
+```
+
+### Deleted Text
+
+!!! info "Standard Markdown"
+    This is the *standard Markdown* syntax.
+
+```markdown
+~~Deleted Text~~
+```
+
+```html
+<del>Deleted Text</del>
+```
+
+### Inserted Text
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+++Inserted Text++
+```
+
+```html
+<ins>Inserted Text</ins>
+```
+
+### Combined Emphasis Text
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+Combined emphasis with **asterisks and _underscores_**.
+```
+
+```html
+Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
