@@ -213,6 +213,16 @@ _这也是次强调文字，斜体_
 <a href="URL" title="提示文字">链接文字</a>
 ```
 
+## 图片
+
+```markdown
+![替换文本](URL)
+```
+
+```html
+<img src="URL" alt="替换文本"/>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

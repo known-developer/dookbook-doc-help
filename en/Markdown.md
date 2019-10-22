@@ -213,6 +213,16 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 <a href="URL" title="Tip Text">Link Text</a>
 ```
 
+## Image
+
+```markdown
+![Alt Text](URL)
+```
+
+```html
+<img src="URL" alt="Alt Text"/>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
