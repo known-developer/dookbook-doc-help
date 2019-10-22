@@ -201,6 +201,9 @@ _这也是次强调文字，斜体_
 
 ## 链接
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 [链接文字](URL)
 
@@ -215,12 +218,110 @@ _这也是次强调文字，斜体_
 
 ## 图片
 
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
 ```markdown
 ![替换文本](URL)
 ```
 
 ```html
 <img src="URL" alt="替换文本"/>
+```
+
+## 行内代码
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+`code here`
+```
+
+```html
+<code>code here</code>
+
+<value>code here</value>
+```
+
+## 表格
+
+### 原始表格
+
+!!! info "标准Markdown"
+    此为*标准Markdown*语法。
+
+```markdown
+| 名称 | 描述 | 热度 |
+| ------------- | --- | --- |
+| 帮助 | 显示帮助窗口。| 5 |
+| **关闭** | *关闭*一个`窗口` | 1000 |
+
+<!-- 1. 至少需要3个短线或虚线分隔表格标题跟表格内容单元。-->
+
+<!-- 2. 最外层的"|"是可选的。你也可以使用Markdown的行内元素。-->
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>描述</th>
+      <th>热度</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>帮助</td>
+      <td>显示帮助窗口。</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><strong>关闭</strong></td>
+      <td><em>关闭</em>一个<code>窗口</code></td>
+      <td>1000</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+### 列对齐
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+<!-- 冒号可以用来对齐列：右对齐，居中 -->
+
+| 名称 | 描述 (居中) | 热度 (右对齐) |
+| ------------- | :---: | ---: |
+| 帮助 | 显示帮助窗口。| 5 |
+| **关闭** | *关闭*一个`窗口` | 1000 |
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th align="center">描述 (居中)</th>
+      <th align="right">热度 (右对齐)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>帮助</td>
+      <td align="center">显示帮助窗口。</td>
+      <td align="right">5</td>
+    </tr>
+    <tr>
+      <td><strong>关闭</strong></td>
+      <td align="center"><em>关闭</em>一个<code>窗口</code></td>
+      <td align="right">1000</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 ## 参考资料
