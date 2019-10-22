@@ -199,6 +199,20 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 <hr/>
 ```
 
+## Link
+
+```markdown
+[Link Text](URL)
+
+[Link Text](URL "Tip Text")
+```
+
+```html
+<a href="URL">Link Text</a>
+
+<a href="URL" title="Tip Text">Link Text</a>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

@@ -199,6 +199,20 @@ _这也是次强调文字，斜体_
 <hr/>
 ```
 
+## 链接
+
+```markdown
+[链接文字](URL)
+
+[链接文字](URL "提示文字")
+```
+
+```html
+<a href="URL">链接文字</a>
+
+<a href="URL" title="提示文字">链接文字</a>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
