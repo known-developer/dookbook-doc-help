@@ -31,6 +31,19 @@ The *suffix* of the documents written by Markdown are `.md` or `.markdown`.
 <h3>Level-3 Heading</h3>
 ```
 
+## Paragraph
+
+```markdown
+Paragraph 1
+
+Paragraph 2
+```
+
+```html
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
